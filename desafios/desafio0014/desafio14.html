@@ -7,37 +7,46 @@
     <style>
         table{
             border-collapse: collapse;
+            width: 400px;
+            height: 600px;
         }
         tr, th, td{
             border: 1px solid black;
             padding: 10px;
+        }
+        thead{
+            background-color: rgb(110, 107, 107);
+           
         }
     </style>
 </head>
 <body>
     <table>
         <thead>
+          <tr>
+            <th >
+                Area
+            </th>
+            <th  >
+                Diciplinas
+            </th>
+            <th>nota 1</th>
             <tr>
-                <th rowspan="2">Àrea</th>
-                <th>Diciplinas</th>
-                <th >
+              
+                <th colspan="">
                     Notas
                 </th>
-                <th>
-                    Média
-                </th>
             </tr>
+          </tr>
         </thead>
         <tbody>
-            <tr>
-                <th rowspan="4">Exatas</th>
-               
-                <th>Nota 1</th>
-                <th>Nota 2</th>
-               
+
+            <tr> 
+                <th rowspan="6">Exatas</th>
             </tr>
+           
             <tr>
-                <td>Matematica</td>
+                <td >Matematica</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -57,10 +66,32 @@
 
             </tr>
             <tr>
+                <th colspan="6">Média de exatas</th>
+            </tr>
+            <tr>
+                <th rowspan="4">humanas</th>
+            </tr>
+            
+            <tr>
                 <td>Biologia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Hístoria</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="7">Média de humanas</th>
             </tr>
         </tbody>
     </table>
