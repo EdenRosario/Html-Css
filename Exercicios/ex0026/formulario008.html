@@ -14,7 +14,13 @@
         <label for="in2">Numero 2:</label>
         <input type="number" id="in2" oninput="Isoma.innerHTML = Number(in1.value) + Number(in2.value)" required>
     </p>
-    <label for="Isoma">Soma:</label>
-    <output id="Isoma">0</output>
+    <p>
+        <label for="Isoma">Soma:</label>
+        <output id="Isoma">0</output>
+    </p>
+
+    <p><input type="range" id="inum" oninput="ival.innerHTML = Number(inum.value)" max="5" min="0" required value="5">
+    <output id="ival">5</output></p>
+
 </body>
 </html>
