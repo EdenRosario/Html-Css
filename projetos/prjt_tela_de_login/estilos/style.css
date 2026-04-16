@@ -1,0 +1,145 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+ /*
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more 
+*/
+
+
+    :root{
+        --cor-cinza-claro:#303030;
+        --cor-cinza-medio: #212121;
+        --cor-cinza-escuro: #030303;
+    }
+    
+    html, body{
+        height: 100%;
+        width: 100%;
+    }
+
+    body{
+        background-color: var(--cor-cinza-medio);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    section#secao_de_login{ 
+        background-color: white;
+        border-radius: 25px;
+        box-shadow:1px 2px 15px 2px #030303a4;
+        margin: auto;
+        width: 310px;
+        height: 700px;
+        transition: width 0.3s, heigth 0.3s;
+        transition-timing-function: ease;
+    }
+
+    div#ifoto{
+        display: block;
+       border-top-right-radius: 20px;
+       border-top-left-radius: 20px; 
+        height: 30vh;
+       background-image: url(../img/pexels-brunoscramgnon-5007442.jpg); 
+       background-size: cover;
+       background-position: center center;
+       
+    }
+
+    div#tela_de_login{
+        padding: 20px;
+        
+    }
+
+    h1{
+        
+        text-align: center;
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+   
+    img.icone_login{
+       margin-bottom: -12px;
+        width: 35px;
+        height: 40px;
+
+    }
+
+    form > div > p > input{
+        background-color: #212121;
+        color: rgb(255, 255, 255);
+    }
+
+    form > div > p > input:hover{
+        background-color: white;
+        color: #030303;
+    }
+
+    p#imsg{
+        text-indent: 15px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    p#msg_criar_usuario{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.1em;  
+    }
+
+    button{
+        border-radius: 15px;
+        justify-content: center;
+        width: 120px;
+        padding: 3px;
+        display: flex;
+        margin: auto;
+        cursor: pointer;
+        align-items: center;
+    }
+   
+    p > a{
+        text-decoration: none;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    p > a:hover{
+        color: blue;
+    }
+    div#alinhar_itens{
+        text-align: center;
+        margin-left: -40px;
+    }
+    #usenrame{
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+        width: 190px;
+    }
+    #senha{
+        padding: 10px;
+        border-radius: 10px;
+        width: 190px;
+    }
+    #Icon_login{
+        margin-bottom: -2px;
+    }    
+
+
+   
+   

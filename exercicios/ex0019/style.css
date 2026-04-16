@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+   body{ 
+    background-image: linear-gradient(
+        90deg,#c5c5c5, #979797, #464545  
+    ) ; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; background-attachment: fixed; 
+   }
+
+h1{
+    color: rgb(210, 183, 30);
+}
+#principal{ color: rgb(46, 46, 110);
+font-size: 3.2em; text-align: center; background-color: aquamarine;
+}
+.basico{ color: rgba(157, 204, 146, 0.808);
+
+}
+.mediu{ color: rgb(92, 145, 214);
+
+}
+.avancado{ color: rgb(214, 69, 69);
+
+}
+.destaque{ background-color: rgb(208, 93, 218);font-size: 2.5em;
+    
+}
+.enfase{
+    color: rgb(255, 0, 0); font-weight: bolder; font-style: italic; font-size: 1.2em;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização vertical de uma div</title>
+    <style>
+        #container{
+            position: relative;
+
+            background-color: rgb(86, 0, 97);
+            height: 96vh;
+            background-image: url(iamgens/target001.png);
+            background-size: 100% 100%;
+            padding: 10px;
+
+
+            
+        }
+        #conteudo{
+            background-image: url(iamgens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            background-color: rgb(251, 255, 0);
+           
+            width: 400px;
+            height: 200px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+           
+
+        </article>
+    </section>
+</body>
+</html>
